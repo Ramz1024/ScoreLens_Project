@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Marksheet</title>
+</head>
+<body>
+    <h2>Upload Student Marksheet</h2>
+    <form action="http://localhost:5000/upload" method="post" enctype="multipart/form-data">
+        Subject Name: <input type="text" name="subject" required><br><br>
+        Excel File: <input type="file" name="file" accept=".xlsx" required><br><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>

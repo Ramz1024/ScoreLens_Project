@@ -1,0 +1,68 @@
+/* Overall container styling */
+.login-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0e2744, #022f63);
+}
+
+/* Login form container styling */
+.login-form {
+  background-color: #fff;
+  padding: 3em;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  width: 300px;
+  text-align: center;
+}
+
+/* Header inside the login form */
+.login-form h2 {
+  margin-bottom: 1em;
+  color: #0e2744;
+  font-size: 1.5em;
+}
+
+/* Input fields */
+.login-form input {
+  padding: 0.8em;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button styling */
+.login-form button {
+  background-color: #ffd000;
+  color: #0e2744;
+  padding: 0.8em;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Button hover effect */
+.login-form button:hover {
+  background-color: #0e2744;
+  color: #ffd000;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+/* Note text for sign-up */
+.note {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 1em;
+}
