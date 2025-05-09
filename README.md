@@ -31,6 +31,8 @@ Score Management: Professors can upload scores for students in a course, and stu
 Statistics: The system calculates average, minimum, maximum, and percentiles for student scores.
 
 
+
+
 Technologies
 
 Flask: A Python web framework for building the API.
@@ -48,6 +50,8 @@ SQLite: Database used to store user data, courses, and scores.
 NumPy: For performing statistical calculations on the student scores.
 
 
+
+
 Setup Instructions
 
 Requirements
@@ -60,45 +64,23 @@ Pandas
 SQLite (built-in with Python)
 
 
+
+
 Installation
 
 Clone the repository to your local machine:
+
 git clone <repository_url>
+
 cd <project_directory>
 
 
 Set up the SQLite database by running the app:
+
 cd src
+
 python app.py
 
-
-Database Models
-1. User
-id: Primary key, Integer
-email: User's email, String
-password: Hashed password, String
-role: User's role (e.g., "professor" or "student"), String
-created_courses: Relationship with Course
-
-
-2. Course
-id: Primary key, Integer
-name: Course name, String
-code: Unique course code, String
-professor_id: Foreign key to the User model, Integer
-enrolled_students: Relationship with Enrollment
-
-
-3. Enrollment
-id: Primary key, Integer
-course_id: Foreign key to the Course model, Integer
-student_email: Email of the enrolled student, String
-
-
-4. Score Table
-Each course will have a corresponding score table named course_{course_id}_scores.
-Name: Student's name, Text
-Marks: Student's marks, Integer
 
 
 Notes
