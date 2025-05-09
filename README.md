@@ -83,7 +83,7 @@ python app.py
 
 
 
-Notes
+Notes:
 The database is stored as site.db for general user information and student_scores.db for student scores.
 
 
