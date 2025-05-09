@@ -44,15 +44,10 @@
 
 ### Installation
 
-Clone the repository to your local machine:
-
-git clone <repository_url>
-cd <project_directory>
-
-
 Set up the SQLite database by running the app:
 
 cd src
+
 python app.py
 
 
