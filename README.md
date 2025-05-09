@@ -32,12 +32,19 @@ Statistics: The system calculates average, minimum, maximum, and percentiles for
 
 
 Technologies
+
 Flask: A Python web framework for building the API.
+
 Flask-SQLAlchemy: An extension for Flask that adds support for SQLAlchemy, allowing the use of an SQLite database.
+
 Flask-Bcrypt: For hashing passwords securely.
+
 Flask-CORS: For enabling Cross-Origin Resource Sharing (CORS) in the API.
+
 Pandas: For processing and handling Excel files with student data.
+
 SQLite: Database used to store user data, courses, and scores.
+
 NumPy: For performing statistical calculations on the student scores.
 
 
