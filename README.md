@@ -1,10 +1,11 @@
 # Problem Statement: A Visualization of Student Scores Website - ScoreLens
 
-## SDD:
-[ScoreLens_13_SDD.pdf](#)
+## SDD:  
+[ScoreLens_13_SDD.pdf](https://github.com/Ramz1024/ScoreLens_Project/raw/main/ScoreLens_13_SDD.pdf)
 
-## SRS:
-[13_SCORELENS_SRS.pdf](#)
+## SRS:  
+[13_SCORELENS_SRS.pdf](https://github.com/Ramz1024/ScoreLens_Project/raw/main/13_SCORELENS_SRS.pdf)
+
 
 ## Demo Video:
 [Watch Demo Video](https://mahindraecolecentrale-my.sharepoint.com/:v:/g/personal/se22ucse255_mahindrauniversity_edu_in/EaU1jNk7b_lGgw02Ds7IWHYBU4tlcPZw4whSqBVEa2JEeA)
